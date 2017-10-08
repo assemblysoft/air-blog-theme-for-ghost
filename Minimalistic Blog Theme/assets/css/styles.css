@@ -461,7 +461,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #cccccc;
+  color: #e85555;
   transition: all 0.3s ease; }
   a:hover {
     color: #222222; }
@@ -675,7 +675,10 @@ hr {
 
 .author {
   font-family: "Roboto", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  padding: 25px 0;
+  background-color: rgba(0, 0, 0, 0.6)
+}
 
 .author p {
   margin: 0;
@@ -688,7 +691,9 @@ hr {
   color: white; }
 
 .author p.address {
-  color: white; }
+  color: white; 
+  margin-bottom: 10px;
+}
 
 .author p.about {
   font-family: 'Open Sans', sans-serif;
@@ -812,7 +817,7 @@ body.post-template .site-header h2 .logo {
   .lateral {
     position: inherit !important;
     width: 100% !important;
-    height: 450px !important; }
+    height: 354px !important; }
   .home { 
     width:100% !important;}
   .post h2 a {
@@ -822,7 +827,7 @@ body.post-template .site-header h2 .logo {
   .plane {
     width:200px;
     margin-top: 10px;
-    position:absolute;} }
+    position:absolute;} 
 }
 .ir {
   background-color: transparent;
@@ -852,11 +857,14 @@ body.post-template .site-header h2 .logo {
   position: fixed;
   width: 30%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e3d66+0,072035+100 */
-  background: #0e3d66; /* Old browsers */
-  background: -moz-linear-gradient(top,  #0e3d66 0%, #072035 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #0e3d66 0%,#072035 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #0e3d66 0%,#072035 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e3d66', endColorstr='#072035',GradientType=0 ); /* IE6-9 */
+  background:  #0e3d66; /* Old browsers */
+  background-image: url(../img/bio-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center -1000px;
+  /* background: -moz-linear-gradient(top,  #0e3d66 0%, #072035 100%); /* FF3.6-15 */
+  /* background: -webkit-linear-gradient(top,  #0e3d66 0%,#072035 100%); Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(to bottom,  #0e3d66 0%,#072035 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e3d66', endColorstr='#072035',GradientType=0 ); IE6-9 */
 
 }
 
@@ -866,7 +874,7 @@ body.post-template .site-header h2 .logo {
 }
 
 ul > li > a {
-  color: #c3c3c3;
+  color: #e85555;
 }
 
   ul > li > a:hover {
